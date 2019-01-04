@@ -2,7 +2,7 @@
 function baseball() {
     this.init = function(a) {
 
-		var q = new Date();
+        var q = new Date();
         var m = q.getMonth();
         var d = q.getDate();
         var y = q.getFullYear();
@@ -32,16 +32,17 @@ function baseball() {
 
             var tzoffset = -1 * (new Date()).getTimezoneOffset() * 60000; //offset in milliseconds
             fbegin = (new Date(dt - tzoffset))
+			fend = new Date(new Date().getFullYear(), 11, 1);
 
             if (today <= fbegin) {
                 break;
             }
-	    fbegin = new Date(new Date().getFullYear()+1, 9, 1);
+
         }
 
         fball.innerHTML = 'NO';
 
-        if (today >= fbegin) {
+        if (today >= fbegin && today <= fend) {
             fball.innerHTML = 'YES'
             document.getElementById('timer').style.display = 'none';
             document.getElementById('countdown').style.display = 'none';
