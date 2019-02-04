@@ -103,7 +103,7 @@ function countdown() {
 		}
 
 		if(t.hours==1){
-			html = html + '<tr><td class=\'right\'>' + ('0' + t.hours).slice(-2) + '</td><td class=\'left\'  hour</tr>';
+			html = html + '<tr><td class=\'right\'>' + ('0' + t.hours).slice(-2) + '</td><td class=\'left\'>  hour</tr>';
 		}else if (t.hours>1||t.days>1) {
 			html = html + '<tr><td class=\'right\'>' + ('0' + t.hours).slice(-2) + '</td><td class=\'left\'>  hours</tr>';
 		}
