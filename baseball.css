@@ -30,7 +30,7 @@
 	}
 	td{
 		font-size: 32px;
-		text-shadow: 0 0 10px #002D62;
+		text-shadow: 0 0 5px #000;
 /*		color: rgb(0, 0, 0);*/
 		color: #F4911E;
 		/*display: block;*/
@@ -48,7 +48,7 @@
 		margin-top:100pt;
 		text-align:center;
 		font-size: 120px;
-		text-shadow: 0 0 10px #002D62;
+		text-shadow: 0 0 10px #000;
 /*		color: rgb(0, 0, 0);*/
 		color: #F4911E;
 		display: block;
@@ -59,7 +59,7 @@
 	.fbody{
 		text-align:center;
 		font-size: 32px;
-		text-shadow: 0 0 10px #002D62;
+		text-shadow: 0 0 5px #000;
 /*		color: rgb(0, 0, 0);*/
 		color: #F4911E;
 		display: block;
