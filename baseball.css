@@ -25,7 +25,8 @@
 		background-color: #002D62;
 	}
 	a{
-		color: #F4911E;
+		/*color: #F4911E;*/
+		color: #FFF;
 		text-decoration: none;
 	}
 	td{
@@ -50,7 +51,7 @@
 		font-size: 120px;
 		text-shadow: 0 0 10px #000;
 		/*color: #F4911E;*/
-		color: #FFF
+		color: #FFF;
 		display: block;
 		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 		font-weight: bold;
