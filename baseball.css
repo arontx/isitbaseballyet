@@ -6,8 +6,8 @@
 		/* Location of the image */
   		background-image: url(images/background.JPG);
   
-  		/* Background image is centered vertically and horizontally at all times */
-  		background-position: center center;
+  		/* Background image is anchored to topleft at all times */
+  		background-position: top left;
   
   		/* Background image doesn't tile */
   		background-repeat: no-repeat;
@@ -31,8 +31,8 @@
 	td{
 		font-size: 32px;
 		text-shadow: 0 0 5px #000;
-/*		color: rgb(0, 0, 0);*/
-		color: #F4911E;
+		/*color: #F4911E;*/
+		color: #FFF;
 		/*display: block;*/
 		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 		font-weight: bold;
@@ -49,8 +49,8 @@
 		text-align:center;
 		font-size: 120px;
 		text-shadow: 0 0 10px #000;
-/*		color: rgb(0, 0, 0);*/
-		color: #F4911E;
+		/*color: #F4911E;*/
+		color: #FFF
 		display: block;
 		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 		font-weight: bold;
@@ -60,8 +60,8 @@
 		text-align:center;
 		font-size: 32px;
 		text-shadow: 0 0 5px #000;
-/*		color: rgb(0, 0, 0);*/
-		color: #F4911E;
+		/*color: #F4911E;*/
+		color: #FFF;
 		display: block;
 		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 		font-weight: bold;
