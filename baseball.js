@@ -8,6 +8,7 @@ function baseball() {
         var y = q.getFullYear();
         var today = new Date(y, m, d);
         var fball = document.getElementById("baseball");
+        var cdown = document.getElementById("countdown");
 
         var games;
 
@@ -23,7 +24,7 @@ function baseball() {
                 json = data.responseJSON;
             }
         });
-		
+
 
         for (var i = 0; i < games.length; i++) {
             var game = games[i];
@@ -48,6 +49,7 @@ function baseball() {
             document.getElementById('countdown').style.display = 'none';
         } else {
             fball.innerHTML = 'NO';
+            cdown.innerHTML = 'Baseball starts in:';
 			countdown.init('timer',fbegin)
 
         }
