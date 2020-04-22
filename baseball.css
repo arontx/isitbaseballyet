@@ -10,8 +10,8 @@
 		/* Location of the image */
   		background-image: url(images/background.jpg);
   
-  		/* Background image is anchored to topleft at all times */
-  		background-position: top left;
+  		/* Background image centered at top */
+  		background-position: center top;
   
   		/* Background image doesn't tile */
   		background-repeat: no-repeat;
